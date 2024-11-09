@@ -16,9 +16,13 @@
     <h1>Olá Mundo!</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos eius odio non expedita culpa unde dolore, quos ullam inventore numquam tempora sint at animi rerum aut! Doloremque ratione a hic?</p>
     <script>
-        window.alert('Olá Mundo');
-        window.confirm('Está gostando de JS?');
-        window.prompt('Qual é seu nome?');
-    </script>
+        /*var nome = window.prompt('Qual é seu nome?');
+        window.alert('Prazer te conhecer ' + nome);*/
+        
+        var n1 = window.prompt('Digite um numero: ');
+        var n2 = window.prompt('Digite outro numero: ');
+        var soma = Number.parseInt(n1) + Number.parseInt(n2);
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`);
+        </script>
 </body>
 </html>
